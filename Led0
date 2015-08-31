@@ -13,7 +13,7 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   
-  strip.setPixelColor(0,i*8,255-i*8,999/i);
+  strip.setPixelColor(0,255,0,0);
   
   strip.show();
 }
